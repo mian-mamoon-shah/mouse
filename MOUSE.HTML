@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+
+</style>
+<body>
+    <img src="./ik.jpeg" alt="" class="img" width="200px">
+<!-- <button class="btn">ok</button>
+<h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus dicta dolore minus consectetur quod fugit, neque provident, esse aut hic obcaecati. Accusantium voluptas error aperiam asperiores, ullam inventore voluptatum obcaecati.</h1> -->
+
+
+</body>
+
+<script>
+let theImg = document.querySelector(".img")
+let btn = document
+btn.addEventListener("mousemove",function change(e){
+theImg.style.position = "absolute"
+theImg.style.left = `${e.x}px`
+theImg.style.top = `${e.y}px`
+console.log(e.x,e.y)
+
+})
+
+</script>
+</html>
